@@ -1,0 +1,22 @@
+export default{
+    state:{
+        Amateur:[{
+            title:"你我本是同胞，共骑白马可好？",
+            time:"2018-01-11",
+            img:require("../assets/newsphoto/p1.png")
+        },{
+            title:"踢着看完，那些神奇的穿裆技巧，居然有这种操作？",
+            time:"2018-01-11",
+            img:require("../assets/newsphoto/p2.png")
+        }],
+        Profession:[{
+            title:"你我本是同胞，共骑白马可好？",
+            time:"2018-01-11",
+            img:require("../assets/newsphoto/p1.png")
+        },{
+            title:"踢着看完，那些神奇的穿裆技巧，居然有这种操作？",
+            time:"2018-01-11",
+            img:require("../assets/newsphoto/p2.png")
+        }]
+    }
+}

@@ -2,7 +2,7 @@
   <div id="app">
     <app-head class="page"></app-head>
     <keep-alive>
-      <router-view class="subject"></router-view>
+      <router-view id="subject"></router-view>
     </keep-alive>
     <app-foot></app-foot>
   </div>
@@ -27,10 +27,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin: 0;
+  padding:0;
 }
-.subject{
+#subject{
   margin-top:90px;
   margin-bottom:60px;
   z-index:1;
 }
+
 </style>

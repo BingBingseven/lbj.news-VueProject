@@ -2,7 +2,6 @@
 <div>
     <input placeholder="add your age">
     <input type="submit" @click="print()" value="add" id="btn">
-    <p>{{message}}</p>
  </div>   
 </template>
 
@@ -12,7 +11,6 @@ export default{
     name:'select',
     data(){
         return{
-            message:this.$myName
         }
     },
     methods:{

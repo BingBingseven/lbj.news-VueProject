@@ -145,7 +145,7 @@ img{
     font-size:18px;
     font-weight:bold;
     margin-bottom:5px;
-    margin:10px 5% 5px;
+    margin:15px 5% 5px;
     border-bottom:1px solid #bbbbbb;
 }
 .gameDone{
