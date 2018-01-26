@@ -22,7 +22,6 @@ export default{
     },
     methods:{
         getmore(){
-            $("#btn").css("background","#808080");
             let changeState=this.change;
             axios.post('',{
                 params:{
