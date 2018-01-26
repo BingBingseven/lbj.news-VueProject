@@ -1,7 +1,7 @@
 <template>
-    <div id="news">
+    <div>
         <p class="newsType redT">职业资讯</p>
-        <div v-for="p in ProfessionNews" class="newBox">
+        <div v-for="p in profession" class="newBox">
             <div class="newsImg"><img :src="setSrc(p.img)"></div>
             <div class="newsContent">
                 <p class="newsTitle">{{p.title}}</p>
@@ -9,7 +9,7 @@
             </div>
         </div>
         <p class="newsType greenT">业余资讯</p>
-        <div v-for="a in AmateurNews" class="newBox">
+        <div v-for="a in amateur" class="newBox">
             <div class="newsImg"><img :src="setSrc(a.img)"></div>
             <div class="newsContent">
                 <p class="newsTitle">{{a.title}}</p>
@@ -20,13 +20,13 @@
 </template>
 
 <script>
-import {mapState} from 'Vuex'
+import {mapState} from 'vuex'
 export default {
-    name:"news",
+    name:"new",
     computed:{
        ...mapState({
-           AmateurNews:state=>state.NewsStore.Amateur,
-           ProfessionNews:state=>state.NewsStore.Profession
+           amateur:state => state.NewsStore.amateur,
+           profession:state => state.NewsStore.profession
        })
     },
     methods:{
@@ -38,9 +38,6 @@ export default {
 </script>
 
 <style lang="less">
-#news{
-    padding-left:10px;
-}
 .newsType{
     font-size:20px;
     font-weight:bold;

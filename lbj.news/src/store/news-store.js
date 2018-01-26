@@ -1,6 +1,6 @@
 export default{
     state:{
-        Amateur:[{
+        amateur:[{
             title:"你我本是同胞，共骑白马可好？",
             time:"2018-01-11",
             img:require("../assets/newsphoto/p1.png")
@@ -9,7 +9,7 @@ export default{
             time:"2018-01-11",
             img:require("../assets/newsphoto/p2.png")
         }],
-        Profession:[{
+        profession:[{
             title:"你我本是同胞，共骑白马可好？",
             time:"2018-01-11",
             img:require("../assets/newsphoto/p1.png")

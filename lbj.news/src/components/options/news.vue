@@ -1,23 +1,26 @@
 <template>
   <div>
   <my-carrousel id="carousel"></my-carrousel>
-  <Amateur-news></Amateur-news>
+  <amateur-news  id="news"></amateur-news>
   </div>
 </template>
 
 <script>
 import Carrousel from './newsComp/swiper'
-import News from './newsComp/new'
+import New from './newsComp/new'
 export default{
-  name:'swiper',
+  name:'news',
   components:{
     'my-carrousel':Carrousel,
-    'Amateur-news':News
+    'amateur-news':New
   }
 }
 </script>
 
 <style>
+#news{
+    padding-left:10px;
+}
 #carousel{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
